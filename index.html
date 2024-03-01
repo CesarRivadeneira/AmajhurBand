@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    /><!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway:500,600&display=swap" rel="stylesheet">
+    <script src="app.js" async></script>
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Amajhur</title>
+</head>
+<body>
+
+
+    <!-- SECCION I N I C I O -->
+   <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/AMAJHUR/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE NOSOTROS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">FECHAS</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                            <li><a href="#Merchandising" onclick="seleccionar(this)">MERCHANDISING</a></li>
+                            <li> 
+                                <a href="https://www.youtube.com/channel/UCI4B4c8ddX4UHGopQ2q06pA" target="_blank" onclick="seleccionar(this)"><i class="fa-brands fa-youtube" ></i></a>
+                                <a href="https://www.facebook.com/Amajhur-304632803524182/?ref=page_internal" target="_blank" onclick="seleccionar(this)"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/amajhur.metal/" target="_blank" onclick="seleccionar(this)"><i class="fa-brands fa-instagram-square"></i></a>
+                            </li>
+                           
+                        </ul>
+                    </nav>
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+             
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Somos  <span>AMAJHUR</span>  Metal</h2>
+                <p class="descripcion">Desde Libertad para el mundo!! </p>
+                <a href="#portfolio">Ir a Fechas</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VwwHKGZ7NIc?start=4?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Nosotros</p>
+            <h2>Bienvenidos!! Somos <span>AMAJHUR</span> </h2>
+            <h3>Groove Metal</h3>
+            <p>Banda de Groove Metal de Zona Oeste dando shows por todo Buenos Aires-Argentina. Actualmente acabamos de presentar nuestro ultimo trabajo <strong>"De Frente"</strong> el cual ya se encuentra disponible en nuestras plataformas y contactandose con nosotros se puede adquirir el formato fisico.</p>
+            <p>Puedes escuchar toda nuestra musica, incluido nuestra ultima presentacion en Spotify!! </p>
+            
+            <a href="https://open.spotify.com/artist/7oXLa5posCWUyAvYdzgXsi?si=1VYqOCsrTPS2PaXb3m9XtQ" target="_blank"><i class="fa-brands fa-spotify"></i> Spotify</a>
+            <a href="https://www.youtube.com/channel/UCI4B4c8ddX4UHGopQ2q06pA" target="_blank"><i class="fa-brands fa-youtube" ></i> Youtube</a>
+            <a href="https://www.facebook.com/Amajhur-304632803524182/?ref=page_internal" target="_blank" ><i class="fa-brands fa-facebook"></i> Facebook</a>
+            <a href="https://www.instagram.com/amajhur.metal/" target="_blank" ><i class="fa-brands fa-instagram-square"></i> Instagram</a>
+        
+        </div>
+    </section>
+
+   <!--SECCION FECHAS -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Nuestras Fechas</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/fecha1.jpg" alt="">
+                <div class="info">
+                    <h4>27-8</h4>
+                    <p>Vadenuevo</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/fecha2.jpg" alt="">
+                <div class="info">
+                    <h4>27-8</h4>
+                    <p>Vadenuevo</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/fecha3.jpg" alt="">
+                <div class="info">
+                    <h4>26-12</h4>
+                    <p>Vadenuevo</p>
+                    <p>nuevo detalle</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/fecha4.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/fecha5.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/fecha1.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>  
+    </section>
+
+    <!--SECCION DE PRODUCTOS-->
+    <p class="titulo-seccion" id="Merchandising">Merchandising</p>
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">CD Ecuanime</span>
+                <img src="img/Ecuanime.png" alt="" class="img-item">
+                <span class="precio-item">$18.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">CD De Frente </span>
+                <img src="img/De Frente.png" alt="" class="img-item">
+                <span class="precio-item">$32.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Skin Glam</span>
+                <img src="img/remera Amajhur.png" alt="" class="img-item">
+                <span class="precio-item">$18.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Remera De Frente</span>
+                <img src="img/remera De Frente.png" alt="" class="img-item">
+                <span class="precio-item">$54.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Remera Ecuanime</span>
+                <img src="img/remera Ecuanime.png" alt="" class="img-item">
+                <span class="precio-item">$32.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+                <!-- 
+                <div class="carrito-item">
+                    <img src="img/boxengasse.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Box Engasse</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$15.000,00</span>
+                    </div>
+                   <span class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                   </span>
+                </div>
+                <div class="carrito-item">
+                    <img src="img/skinglam.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Skin Glam</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="3" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$18.000,00</span>
+                    </div>
+                   <button class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                   </button>
+                </div>
+                 -->
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $120.000,00
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="https://formsubmit.co/f651ff96ff5d8175cb55ba6bd48aa8a9" method="POST">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad" name="name">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad" name="email">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full" name="tema">
+                </div>
+                <div class="fila">
+                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2023</p>
+        <p>Proyecto realizado por AriWeb-Desing</p>
+        <div class="redes">
+            <a href="https://www.youtube.com/channel/UCI4B4c8ddX4UHGopQ2q06pA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/Amajhur-304632803524182/?ref=page_internal" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/amajhur.metal/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+
+        </div>
+
+    </footer>
+    <script src="js/smoothscroll.js"></script>
+     <script src="js/custom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
